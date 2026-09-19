@@ -1,6 +1,6 @@
-import frances1 from "../assets/disenos/frances/1.png";
-import frances2 from "../assets/disenos/frances/2.png";
-import frances3 from "../assets/disenos/frances/3.png";
+import frances1 from "../assets/disenos/frances/1.PNG";
+import frances2 from "../assets/disenos/frances/2.PNG";
+import frances3 from "../assets/disenos/frances/3.PNG";
 
 import clasica1 from "../assets/disenos/clasica/1.png";
 import clasica2 from "../assets/disenos/clasica/2.png";
