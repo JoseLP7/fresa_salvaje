@@ -4,7 +4,30 @@ import Disenos from "./Disenos";
 import Galeria from "./Galeria";
 import Contacto from "./Contacto";
 
-function Inicio() {
+function Inicio(props) {
+
+
+    const itemsCarrusel = {
+        tituloCarrusel: "Nuestros Trabajos ✨"
+    }
+
+    const itemsServicios = {
+        tituloServicios: "Nuestros Servicios 💅"
+    }
+
+    const itemsDisenos = {
+        tituloDisenos: "Nuestros Diseños 💫"
+    }
+
+    const itemsGaleria = {
+        tituloGaleria: "Galería 📷"
+    }
+
+    const itemsContacto = {
+        tituloContacto: "Reserva tu cita 🍓"
+    }
+
+   
     return (
         <>
             {/* INICIO */}
@@ -16,7 +39,7 @@ function Inicio() {
                     <div className="w-full md:w-1/2 text-center md:text-left">
 
                         <h1 className="text-5xl font-bold text-pink-600">
-                            Fresa Salvaje 🍓
+                            {props.itemsInicio.tituloInicio}
                         </h1>
 
                         <h2 className="text-2xl font-semibold text-gray-700 mt-4">
@@ -28,7 +51,7 @@ function Inicio() {
                             perfecto para tus uñas.
                         </p>
 
-                        
+
                         <a href="#disenos" className="block w-fit bg-pink-500 text-white px-6 py-3 rounded-full mt-6 hover:bg-pink-600 transition">
                             Ver diseños
                         </a>
@@ -37,7 +60,7 @@ function Inicio() {
 
                     {/* Parte derecha: carrusel */}
                     <div className="w-full md:w-1/2">
-                        <Carrusel />
+                        <Carrusel itemsCarrusel={itemsCarrusel} />
                     </div>
 
                 </div>
@@ -46,21 +69,21 @@ function Inicio() {
 
             {/* SERVICIOS */}
             <section id="servicios">
-                <Servicios />
+                <Servicios itemsServicios={itemsServicios} />
             </section>
 
             {/* DISEÑOS */}
             <section id="disenos">
-                <Disenos />
+                <Disenos itemsDisenos={itemsDisenos} />
             </section>
 
             {/* GALERÍA */}
             <section id="galeria">
-                <Galeria />
+                <Galeria itemsGaleria={itemsGaleria} />
             </section>
 
             <section id="contacto">
-                <Contacto />
+                <Contacto itemsContacto={itemsContacto}/>
             </section>
 
         </>

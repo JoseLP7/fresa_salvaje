@@ -1,4 +1,4 @@
-function Servicios() {
+function Servicios(props) {
 
     const servicios = [
         {
@@ -59,7 +59,7 @@ function Servicios() {
             <div className="max-w-6xl mx-auto">
 
                 <h2 className="text-4xl font-bold text-pink-600 text-center">
-                    Nuestros servicios 💅
+                    {props.itemsServicios.tituloServicios}
                 </h2>
 
                 <p className="text-gray-600 text-center mt-3 mb-10">

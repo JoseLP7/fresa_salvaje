@@ -10,7 +10,7 @@ import creativo1 from "../assets/disenos/creativo/1.PNG";
 import creativo2 from "../assets/disenos/creativo/2.PNG";
 import creativo3 from "../assets/disenos/creativo/3.PNG";
 
-function Disenos() {
+function Disenos(props) {
 
   const fotosFrances = [
     frances1,
@@ -36,7 +36,7 @@ function Disenos() {
       <div className="max-w-6xl mx-auto">
 
         <h2 className="text-4xl font-bold text-pink-600 text-center">
-          Nuestros diseños ✨
+          {props.itemsDisenos.tituloDisenos}
         </h2>
 
         <p className="text-gray-600 text-center mt-3 mb-10">

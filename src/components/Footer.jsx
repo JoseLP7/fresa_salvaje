@@ -1,4 +1,4 @@
-function Footer() {
+function Footer(props) {
 
   const mensaje =
     "Hola Fresa Salvaje, quisiera consultar disponibilidad para una cita.";
@@ -13,7 +13,7 @@ function Footer() {
 
         {/* Nombre */}
         <h2 className="text-4xl font-bold">
-          🍓 Fresa Salvaje
+          {props.itemsFooter.tituloFooter}
         </h2>
 
         <p className="mt-3 text-pink-100 text-lg">

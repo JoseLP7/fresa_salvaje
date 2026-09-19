@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Contacto() {
+function Contacto(props) {
 
     const [servicio, setServicio] = useState("");
 
@@ -29,7 +29,7 @@ function Contacto() {
             <div className="max-w-6xl mx-auto">
 
                 <h2 className="text-4xl font-bold text-pink-600 text-center">
-                    Reserva tu cita 🍓
+                    {props.itemsContacto.tituloContacto}
                 </h2>
 
                 <p className="text-gray-600 text-center mt-3">

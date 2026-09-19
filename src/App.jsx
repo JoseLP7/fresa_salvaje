@@ -4,17 +4,37 @@ import Footer from "./components/Footer";
 
 
 function App() {
+
+  //estos son los datos simulados
+  const itemsMenu = {
+    titulo: "🍓 Fresa Salvaje",
+    items1: "inicio",
+    items2: "servicios",
+    items3: "diseños",
+    items4: "galería",
+    items5: "contacto",
+  };
+ñ
+  const itemsInicio = {
+    tituloInicio: "Fresa Salvaje 🍓"
+  }
+
+  const itemsFooter = {
+    tituloFooter: "🍓 Fresa Salvaje"
+  }
+
+
   return (
     <>
-      <Navegacion />
+      <Navegacion itemsMenu={itemsMenu} />
 
-      <Inicio />
+      <Inicio itemsInicio={itemsInicio}/>
 
-      
 
-      <Footer />
+
+      <Footer itemsFooter={itemsFooter} />
     </>
   );
 }
 
-export default App;
+export default App;ñ

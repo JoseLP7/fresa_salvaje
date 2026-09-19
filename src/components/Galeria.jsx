@@ -17,7 +17,7 @@ import creativo1 from "../assets/disenos/creativo/1.png";
 import creativo2 from "../assets/disenos/creativo/2.png";
 import creativo3 from "../assets/disenos/creativo/3.png";
 
-function Galeria() {
+function Galeria(props) {
 
     const [filtro, setFiltro] = useState("todas");
 
@@ -76,7 +76,7 @@ function Galeria() {
             <div className="max-w-6xl mx-auto">
 
                 <h2 className="text-4xl font-bold text-pink-600 text-center">
-                    Galería 📸
+                    {props.itemsGaleria.tituloGaleria}
                 </h2>
 
                 <p className="text-gray-600 text-center mt-3 mb-8">

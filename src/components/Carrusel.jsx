@@ -6,7 +6,7 @@ import unas3 from "../assets/trabajos/unas3.PNG";
 import unas4 from "../assets/trabajos/unas4.PNG";
 import unas5 from "../assets/trabajos/unas5.JPG";
 
-function Carrusel() {
+function Carrusel(props) {
 
     const fotos = [unas1, unas2, unas3, unas4, unas5];
 
@@ -32,7 +32,7 @@ function Carrusel() {
         <div className="w-full max-w-3xl mx-auto mt-10">
 
             <h2 className="text-3xl font-bold text-pink-600 mb-6">
-                Nuestros trabajos
+                {props.itemsCarrusel.tituloCarrusel},
             </h2>
 
             <div className="relative flex items-center justify-center">
