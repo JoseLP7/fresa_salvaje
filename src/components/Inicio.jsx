@@ -1,6 +1,6 @@
 import Carrusel from "./Carrusel";
 import Servicios from "./Servicios";
-import Disenos from "./Disenos";
+import Disenos from "./disenos";
 import Galeria from "./Galeria";
 import Contacto from "./Contacto";
 
