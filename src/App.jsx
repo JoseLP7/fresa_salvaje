@@ -1,5 +1,5 @@
 import Inicio from "./components/Inicio";
-import Navegacion from "./components/navegacion";
+import Navegacion from "./components/MenuNav";
 import Footer from "./components/Footer";
 
 
