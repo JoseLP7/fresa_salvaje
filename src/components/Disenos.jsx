@@ -1,14 +1,14 @@
-import frances1 from "../assets/disenos/frances/1.PNG";
-import frances2 from "../assets/disenos/frances/2.PNG";
-import frances3 from "../assets/disenos/frances/3.PNG";
+import frances1 from "../assets/Disenos/frances/1.PNG";
+import frances2 from "../assets/Disenos/frances/2.PNG";
+import frances3 from "../assets/Disenos/frances/3.PNG";
 
-import clasica1 from "../assets/disenos/clasica/1.PNG";
-import clasica2 from "../assets/disenos/clasica/2.PNG";
-import clasica3 from "../assets/disenos/clasica/3.PNG";
+import clasica1 from "../assets/Disenos/clasica/1.PNG";
+import clasica2 from "../assets/Disenos/clasica/2.PNG";
+import clasica3 from "../assets/Disenos/clasica/3.PNG";
 
-import creativo1 from "../assets/disenos/creativo/1.PNG";
-import creativo2 from "../assets/disenos/creativo/2.PNG";
-import creativo3 from "../assets/disenos/creativo/3.PNG";
+import creativo1 from "../assets/Disenos/creativo/1.PNG";
+import creativo2 from "../assets/Disenos/creativo/2.PNG";
+import creativo3 from "../assets/Disenos/creativo/3.PNG";
 
 function Disenos() {
 
