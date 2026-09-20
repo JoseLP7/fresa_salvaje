@@ -1,21 +1,21 @@
 import { useState } from "react";
 
-import galeria1 from "../assets/galeria/1.jpg";
-import galeria2 from "../assets/galeria/2.jpg";
-import galeria3 from "../assets/galeria/3.jpg";
-import galeria4 from "../assets/galeria/4.jpg";
+import galeria1 from "../assets/galeria/1.JPG";
+import galeria2 from "../assets/galeria/2.JPG";
+import galeria3 from "../assets/galeria/3.JPG";
+import galeria4 from "../assets/galeria/4.JPG";
 
-import frances1 from "../assets/disenos/frances/1.png";
-import frances2 from "../assets/disenos/frances/2.png";
-import frances3 from "../assets/disenos/frances/3.png";
+import frances1 from "../assets/disenos/frances/1.PNG";
+import frances2 from "../assets/disenos/frances/2.PNG";
+import frances3 from "../assets/disenos/frances/3.PNG";
 
-import clasica1 from "../assets/disenos/clasica/1.png";
-import clasica2 from "../assets/disenos/clasica/2.png";
-import clasica3 from "../assets/disenos/clasica/3.png";
+import clasica1 from "../assets/disenos/clasica/1.PNG";
+import clasica2 from "../assets/disenos/clasica/2.PNG";
+import clasica3 from "../assets/disenos/clasica/3.PNG";
 
-import creativo1 from "../assets/disenos/creativo/1.png";
-import creativo2 from "../assets/disenos/creativo/2.png";
-import creativo3 from "../assets/disenos/creativo/3.png";
+import creativo1 from "../assets/disenos/creativo/1.PNG";
+import creativo2 from "../assets/disenos/creativo/2.PNG";
+import creativo3 from "../assets/disenos/creativo/3.PNG";
 
 function Galeria(props) {
 
