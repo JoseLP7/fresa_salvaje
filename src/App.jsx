@@ -14,7 +14,7 @@ function App() {
     items4: "galería",
     items5: "contacto",
   };
-ñ
+  
   const itemsInicio = {
     tituloInicio: "Fresa Salvaje 🍓"
   }
@@ -37,4 +37,4 @@ function App() {
   );
 }
 
-export default App;ñ
+export default App
