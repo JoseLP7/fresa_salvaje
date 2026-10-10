@@ -1,7 +1,12 @@
 import { useState } from "react";
 
 function Navegacion(props) {
-
+  // function saludar () {
+  // console.log ("Volviste a Inicio")
+  // 
+  const saludar = () => {
+    console.log("Hola desde la flehca")
+  }
 
   const [menuAbierto, setMenuAbierto] = useState(false);
 
@@ -10,7 +15,7 @@ function Navegacion(props) {
       <div className="max-w-7xl mx-auto flex justify-between items-center relative">
 
         {/* Logo / Nombre */}
-        <a href ="" className="text-2xl font-bold text-pink-600 flex items-center gap-2">
+        <a href="" className="text-2xl font-bold text-pink-600 flex items-center gap-2">
           {props.itemsMenu.titulo}
         </a>
 
@@ -29,6 +34,7 @@ function Navegacion(props) {
           <li>
             <a
               href="#"
+              onClick={() => props.setMostrarPerfil(false)}
               className="hover:text-pink-500 transition-colors"
             >
               {props.itemsMenu.items1}
@@ -38,6 +44,7 @@ function Navegacion(props) {
           <li>
             <a
               href="#servicios"
+              onClick={() => props.setMostrarPerfil(false)}
               className="hover:text-pink-500 transition-colors"
             >
               {props.itemsMenu.items2}
@@ -47,6 +54,7 @@ function Navegacion(props) {
           <li>
             <a
               href="#disenos"
+              onClick={() => props.setMostrarPerfil(false)}
               className="hover:text-pink-500 transition-colors"
             >
               {props.itemsMenu.items3}
@@ -56,6 +64,7 @@ function Navegacion(props) {
           <li>
             <a
               href="#galeria"
+              onClick={() => props.setMostrarPerfil(false)}
               className="hover:text-pink-500 transition-colors"
             >
               {props.itemsMenu.items4}
@@ -65,10 +74,20 @@ function Navegacion(props) {
           <li>
             <a
               href="#contacto"
+              onClick={() => props.setMostrarPerfil(false)}
               className="hover:text-pink-500 transition-colors"
             >
               {props.itemsMenu.items5}
             </a>
+          </li>
+
+          <li>
+            <button
+              onClick={() => props.setMostrarPerfil(true)}
+              className="hover:text-pink-500 transition-colors"
+            >
+              {props.itemsMenu.items6}
+            </button>
           </li>
         </ul>
 
