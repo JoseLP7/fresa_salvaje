@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Perfil from "./components/Perfil";
 
 
+
 function App() {
 
   const [mostrarPerfil, setMostrarPerfil] = useState(false);
@@ -51,11 +52,16 @@ function App() {
         <>
           <Inicio itemsInicio={itemsInicio} />
 
+        
+
           <Footer itemsFooter={itemsFooter} />
         </>
 
       )}
 
+      
+      
+      
 
     </>
   );

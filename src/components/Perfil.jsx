@@ -17,7 +17,7 @@ function Perfil(props) {
                 <div className="mb-8 text-center">
 
                     <h1 className="text-4xl font-bold text-pink-600">
-                    {props.itemsPerfil.tituloPerfil}
+                        {itemsPerfil.tituloPerfil}
                     </h1>
 
                     <p className="mt-2 text-gray-600">
@@ -39,22 +39,20 @@ function Perfil(props) {
 
                         <button
                             onClick={() => setModo("login")}
-                            className={`w-1/2 rounded-md py-2 font-semibold transition ${
-                                modo === "login"
-                                    ? "bg-pink-500 text-white"
-                                    : "text-pink-600 hover:bg-pink-100"
-                            }`}
+                            className={`w-1/2 rounded-md py-2 font-semibold transition ${modo === "login"
+                                ? "bg-pink-500 text-white"
+                                : "text-pink-600 hover:bg-pink-100"
+                                }`}
                         >
                             Iniciar sesión
                         </button>
 
                         <button
                             onClick={() => setModo("registro")}
-                            className={`w-1/2 rounded-md py-2 font-semibold transition ${
-                                modo === "registro"
-                                    ? "bg-pink-500 text-white"
-                                    : "text-pink-600 hover:bg-pink-100"
-                            }`}
+                            className={`w-1/2 rounded-md py-2 font-semibold transition ${modo === "registro"
+                                ? "bg-pink-500 text-white"
+                                : "text-pink-600 hover:bg-pink-100"
+                                }`}
                         >
                             Crear cuenta
                         </button>

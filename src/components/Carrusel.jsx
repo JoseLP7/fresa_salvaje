@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-import unas1 from "../assets/trabajos/unas1.JPG";
-import unas2 from "../assets/trabajos/unas2.JPG";
+import unas1 from "../assets/trabajos/unas1.jpg";
+import unas2 from "../assets/trabajos/unas2.jpg";
 import unas3 from "../assets/trabajos/unas3.PNG";
 import unas4 from "../assets/trabajos/unas4.PNG";
-import unas5 from "../assets/trabajos/unas5.JPG";
+import unas5 from "../assets/trabajos/unas5.jpg";
 
 function Carrusel(props) {
 

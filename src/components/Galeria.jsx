@@ -1,9 +1,9 @@
 import { useState } from "react";
 
 import galeria1 from "../assets/galeria/1.JPG";
-import galeria2 from "../assets/galeria/2.JPG";
+import galeria2 from "../assets/galeria/2.jpg";
 import galeria3 from "../assets/galeria/3.JPG";
-import galeria4 from "../assets/galeria/4.JPG";
+import galeria4 from "../assets/galeria/4.jpg";
 
 import frances1 from "../assets/disenos/frances/1.PNG";
 import frances2 from "../assets/disenos/frances/2.PNG";

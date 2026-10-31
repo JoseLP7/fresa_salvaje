@@ -3,6 +3,8 @@ import Servicios from "./Servicios";
 import Disenos from "./Disenos";
 import Galeria from "./Galeria";
 import Contacto from "./Contacto";
+import Calificacion from "./Calificacion";
+import PaletaColores from "./PaletaColores";
 
 function Inicio(props) {
 
@@ -27,7 +29,7 @@ function Inicio(props) {
         tituloContacto: "Reserva tu cita 🍓"
     }
 
-   
+
     return (
         <>
             {/* INICIO */}
@@ -82,11 +84,20 @@ function Inicio(props) {
                 <Galeria itemsGaleria={itemsGaleria} />
             </section>
 
-            <section id="contacto">
-                <Contacto itemsContacto={itemsContacto}/>
+
+
+            {/* PALETA DE COLORES (API) */}
+            <section id="paleta">
+                <PaletaColores />
             </section>
 
-         
+            <section id="contacto">
+                <Contacto itemsContacto={itemsContacto} />
+            </section>
+
+            <section id="calificacion">
+                <Calificacion />
+            </section>
 
         </>
     );
