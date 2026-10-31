@@ -2,4 +2,6 @@
 
 html {
   scroll-behavior: smooth;
+  /* deja espacio para el menú fijo al saltar a #servicios, #disenos, etc. */
+  scroll-padding-top: 6rem;
 }
